@@ -1,0 +1,117 @@
+html {
+    scrollbar-color: #0d6efd transparent;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+* {
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/imran.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(1, 1, 44);
+    background-color: rgb(87, 87, 247);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#login-container input, #message-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #ccc;
+}
+
+#login-container, #chat-container {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#send-button {
+    border-radius: 20px;
+    border: none;
+    background: rgb(87, 87, 247);
+}
+
+#send-button:hover{
+    color: rgb(87, 87, 247);
+    background: transparent;
+    cursor: pointer;
+}
+
+#messages {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    background-color: #33333385;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.message strong {
+    display: block;
+    color: rgb(87, 87, 247);
+    font-size: 12px;
+}
+
+.message small {
+    color: rgb(87, 87, 247);
+    font-size: 10px;
+}
+
+.message .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.message .buttons button {
+    margin-left: 5px;
+    font-size: 10px;
+    color: white;
+    background: black;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.message img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
