@@ -31,6 +31,16 @@ h1 {
     margin: 10px;
 }
 
+#login-button {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    background: rgb(87, 87, 247);
+    font-weight: bolder;
+}
+
+
 #login-container input, #message-input {
     width: 100%;
     padding: 10px;
@@ -49,6 +59,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 #send-button {
+    padding: 5px;
     border-radius: 20px;
     border: none;
     background: rgb(87, 87, 247);
@@ -92,12 +103,14 @@ h1 {
 }
 
 .message .buttons {
+    padding: 5px;
     display: flex;
     justify-content: flex-end;
     margin-top: 5px;
 }
 
 .message .buttons button {
+    padding: 3px;
     margin-left: 5px;
     font-size: 10px;
     color: white;
